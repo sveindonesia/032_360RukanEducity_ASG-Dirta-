@@ -1,0 +1,148 @@
+<krpano>
+
+ <menu_sm  
+			open_start="true"
+			open_start_mob="false"
+			click_hide="false"
+			mobile_click_hide="true"
+			menu_width="295"
+			menu_height="81%"
+			menu_x="5"
+			menu_y="15"
+			menu_bgcolor="0x000000"
+			menu_bgborder="0,0,0,0 0x2E7E99 1.00"
+			menu_bgroundedge="0 0 0 0"
+			menu_bgshadow="2 2 3 0x0D0D0D 0.42"
+			menu_bgalpha="0.71"
+			menu_align="lefttop"
+			logo_cont_height="75"
+			logo_height="49"
+			logo_cont_color="0xC9B9C9"
+			logo_cont_alpha="NaN"
+			logo_y="10"
+			logo_x="-61"
+			logo="%CURRENTXML%/menu/image/logo.png"
+			logo_text=""
+			logo_txtshadow="2 2 4 0x000000 0.60"
+			logo_css_text="font-family:Verdana; font-style:italic; text-align:center; color:#FFFFFF; font-size:15px;"
+			logo_padding="0 131 10 8"
+			logo_click=""
+			title_height="34"
+			title_width="100%"
+			title_bgcolor="0x000000"
+			title_bgalpha="0.32"
+			title_bgshadow="0 5 18 0x000000 0.54"
+			title_bgborder="0,1,0,1 0xFFFFFF 1.00"
+			title_bgroundedge="0 0 0 0"
+			title_text_1="360 Rukan Educity"
+			title_text_2="Меню"
+			title_text_3="Menu 3"
+			title_text_4="Menu 4"
+			title_text_bgshadow="2 2 0 0x000000 0.40"
+			title_css="font-family:Verdana; font-style:italic; text-align:center; margin-left:20px; margin-right:5px; color:#FFFFFF; font-size:15px;"
+			title_padding="0 0 0 0"
+			title_onover_color="3571594"
+			title_picture=""
+			group_indicator_height="20"
+			head_step_v="5"
+			head_width="88%"
+			head_height="45"
+			head_x="0"
+			head_bgcolor="0x2B6F7A"
+			head_bgalpha="0.99"
+			head_bgborder="2,0,0,2 0x628D8F 0.97"
+			head_bgroundedge="0 16 0 17"
+			head_bgshadow="3 4 3 0x0A0A0A 0.44"
+			head_text_bgshadow="2 2 4 0x000000 0.6"
+			head_padding="0 0 0 12"
+			head_line_css="font-family:Verdana; font-style:italic; color:#FFFFFF; font-size:14px;"
+			head_onover_color="0x2B828F"
+			head_onover_bgalpha="0.9"
+			line_step_v="4"
+			line_width="82%"
+			line_height="32"
+			line_x=""
+			line_bgcolor="0x296E78"
+			line_bgalpha="0.98"
+			line_onover_color="0x3AADBF"
+			line_onover_bgalpha="0.9"
+			line_bgborder="2,0,0,2 0x61A8B3 0.98"
+			line_bgroundedge="9 9 9 9"
+			line_bgshadow="2 3 3 0x052129 0.64"
+			line_text_bgshadow="2 2 4 0x000000 0.6"
+			line_padding="0 0 0 21"
+			line_css="font-family:Verdana; font-style:italic; color:#FFFFFF; font-size:12px;"
+			line_css2="font-family:Verdana; font-style:italic; font-size:12px; color:#FFFF00;"
+			thumbnail_width="80%"
+			thumbnail_height="100"
+			thumbnail_x="15"
+			thumbnail_step_v="20"
+			thumbnail_bgcolor="0x000000"
+			thumbnail_bgalpha="0.30"
+			thumbnail_onover_bgalpha="0.76"
+			thumbnail_onover_color="0xBDF8FF"
+			thumbnail_bgroundedge="0 0 0 0"
+			thumbnail_bgborder="3,3,3,20 0xFFFFFF 0.12"
+			thumbnail_bgshadow="6 8 8 0x000000 0.51"
+			thumbnail_text_bgshadow="2 2 3 0x2B282B 0.60"
+			thumbnail_padding="10 30 0 0"
+			thumbnail_css="font-family:Verdana; font-style:italic; text-align:center; color:#FFFFFF; font-size:14px;"
+			view_marker="true"
+			picture_url="%FIRSTXML%/menu/image/Picture/butt2.jpg"
+			picture_height="37"
+			picture_alpha="1"
+			picture_bgborder="0,0,0,0 0xFFFFFF 1"
+			picture_bgroundedge="2 2 2 2"
+			picture_bgshadow="2 2 3  0x1D1D1D 0.6"
+			picture_crop="0|80|273|80"
+			picture_onower="set(crop,0|0|273|80);"
+			picture_onout="set(crop,0|80|273|80);"
+			picture_padding="0 5 0 20"
+			picture_css="font-family:Verdana; font-style:italic; font-size:14px; color:#FFFFFF; text-align:center;"
+			icon_style_line="height:25px;vertical-align:middle; margin-right:10px;"
+			icon_style_head="height:25px;vertical-align:middle; margin-right:10px;"
+			bottom_height="40"
+			lang_1="RU"
+			lang_2="EN"
+			lang_3=""
+			lang_4=""
+			loadscene_flags="MERGE"
+			backup="true"
+			download_delay="1"
+			picture_line="0"
+			
+	/>
+
+<layer name="gr_1" iscontainer="true" style="cont_gr" visible="true" width="295" enabled="true" step_g="1" />
+ <layer name="scr_gr_1" type="plugin" parent="gr_1" style="scroll_m" height="850" />
+ <layer name="line_1_1" iscontainer="true" parent="scr_gr_1" style="container_thumbnails" onclick="load_m(scene_360rukaneducity_view01_draftfinal);" x="null" y="20" b_id="1_1" pos="1" />
+ <layer name="txt_1_1" parent="line_1_1" style="txt_menu_thumbnail" txt_1="360_Rukan Educity_View01" bgalpha="0.3" />
+ <layer name="marker_1_1" parent="line_1_1" style="indik_prosmotr" />
+ <layer name="miniat_1_1" parent="line_1_1" style="menu_thumbnail" url="%FIRSTXML%/panos/360rukaneducity_view01_draftfinal.tiles/thumb.jpg" />
+ <layer name="line_1_2" iscontainer="true" parent="scr_gr_1" style="container_thumbnails" onclick="load_m(scene_360rukaneducity_view02_draftfinal);" x="null" y="140" b_id="1_2" pos="2" />
+ <layer name="txt_1_2" parent="line_1_2" style="txt_menu_thumbnail" txt_1="360_Rukan Educity_View02" bgalpha="0.3" />
+ <layer name="marker_1_2" parent="line_1_2" style="indik_prosmotr" />
+ <layer name="miniat_1_2" parent="line_1_2" style="menu_thumbnail" url="%FIRSTXML%/panos/360rukaneducity_view02_draftfinal.tiles/thumb.jpg" />
+ <layer name="line_1_3" iscontainer="true" parent="scr_gr_1" style="container_thumbnails" onclick="load_m(scene_360rukaneducity_view03_draftfinal);" x="null" y="260" b_id="1_3" pos="3" />
+ <layer name="txt_1_3" parent="line_1_3" style="txt_menu_thumbnail" txt_1="360_Rukan Educity_View03" bgalpha="0.3" />
+ <layer name="marker_1_3" parent="line_1_3" style="indik_prosmotr" />
+ <layer name="miniat_1_3" parent="line_1_3" style="menu_thumbnail" url="%FIRSTXML%/panos/360rukaneducity_view03_draftfinal.tiles/thumb.jpg" />
+ <layer name="line_1_4" iscontainer="true" parent="scr_gr_1" style="container_thumbnails" onclick="load_m(scene_360rukaneducity_view04_draftfinal);" x="null" y="380" b_id="1_4" pos="4" />
+ <layer name="txt_1_4" parent="line_1_4" style="txt_menu_thumbnail" txt_1="360_Rukan Educity_View04" bgalpha="0.3" />
+ <layer name="marker_1_4" parent="line_1_4" style="indik_prosmotr" />
+ <layer name="miniat_1_4" parent="line_1_4" style="menu_thumbnail" url="%FIRSTXML%/panos/360rukaneducity_view04_draftfinal.tiles/thumb.jpg" />
+ <layer name="line_1_5" iscontainer="true" parent="scr_gr_1" style="container_thumbnails" onclick="load_m(scene_360rukaneducity_view05_draftfinal);" x="null" y="500" b_id="1_5" pos="5" edit_gr_t="true" />
+ <layer name="txt_1_5" parent="line_1_5" style="txt_menu_thumbnail" txt_1="360_Rukan Educity_View05" bgalpha="0.3" />
+ <layer name="marker_1_5" parent="line_1_5" style="indik_prosmotr" />
+ <layer name="miniat_1_5" parent="line_1_5" style="menu_thumbnail" url="%FIRSTXML%/panos/360rukaneducity_view05_draftfinal.tiles/thumb.jpg" />
+ <layer name="line_1_6" iscontainer="true" parent="scr_gr_1" style="container_thumbnails" onclick="load_m(scene_360rukaneducity_view06_draftfinal);" x="null" y="620" b_id="1_6" pos="6" />
+ <layer name="txt_1_6" parent="line_1_6" style="txt_menu_thumbnail" txt_1="360_Rukan Educity_View06" bgalpha="0.3" />
+ <layer name="marker_1_6" parent="line_1_6" style="indik_prosmotr" />
+ <layer name="miniat_1_6" parent="line_1_6" style="menu_thumbnail" url="%FIRSTXML%/panos/360rukaneducity_view06_draftfinal.tiles/thumb.jpg" />
+ <layer name="line_1_7" iscontainer="true" parent="scr_gr_1" style="container_thumbnails" onclick="load_m(scene_360rukaneducity_view07_draftfinal);" x="null" y="740" b_id="1_7" pos="7" />
+ <layer name="txt_1_7" parent="line_1_7" style="txt_menu_thumbnail" txt_1="360_Rukan Educity_View07" bgalpha="0.3" />
+ <layer name="marker_1_7" parent="line_1_7" style="indik_prosmotr" />
+ <layer name="miniat_1_7" parent="line_1_7" style="menu_thumbnail" url="%FIRSTXML%/panos/360rukaneducity_view07_draftfinal.tiles/thumb.jpg" />
+ 
+
+</krpano>
